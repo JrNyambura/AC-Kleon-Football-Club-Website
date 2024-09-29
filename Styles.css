@@ -1,0 +1,342 @@
+body {
+    background-image: url("Image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1 {
+    height: 100px;
+    width: 65%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    border-radius: 25px;
+    font-size: 54pt;
+    color: white;
+}
+
+#span1 {
+    color: rgb(216, 46, 74);
+} 
+#span2 {
+    color: rgb(109, 200, 216);
+}
+
+.part2 {
+    margin-top: 200px;
+    
+}
+
+.part3 {
+    font-size: 18px;
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-size: 34pt;
+    color: rgb(179, 199, 206);  
+}
+
+.pic {
+    position: absolute;
+    background-color: aquamarine;
+    top: 30px;
+    left: 900px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border-style:hidden;
+    background-image: url("Footy.jpg");
+    background-size: cover;
+    }
+.pic img {
+    position: absolute;
+    object-fit: cover;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.icons {
+    margin-left: 600px;
+}
+
+#follow {
+    margin-top: 140px;
+    margin-left: 600px;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+
+}
+
+#facebook {
+    font-size: 50px;
+    color: blue;
+    padding-right: 20px;
+}
+
+
+#twitter {
+    font-size: 50px;
+    padding-right: 20px;
+    color: white;
+} 
+
+#instagram {
+    font-size: 50px;
+    color: #833AB4;
+}
+
+#menu-bars {
+    font-size: 80px;
+    color: white;
+    right: 30px;
+    position: absolute;
+    top: 30px;
+}
+
+.icon {
+    flex-direction: column;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.contact {
+    margin-top: 110px;
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.contact span {
+    font-size: 20;
+    font-weight: bold;
+    color:rgb(248, 4, 49) ;
+    padding: 10px;
+}
+
+.contactInfo {
+    font-size: 25px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.photo {
+    background-image: url("Footy\ Academy.jpg");
+    width: 48%;
+    height: 500px;
+    background-color: #833AB4;
+}
+
+.about {
+    background-color: rgb(28, 47, 56);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.about h3 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.about h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+#about {
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+#mission {
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+#mission1 {
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+    padding-bottom: 50px;
+}
+
+.mission li {
+    color: white;
+    font-size: 24px;
+    margin-left: 35px;
+}
+
+.join {
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.join h3 {
+    font-size: 23px;
+    padding: 15px;
+}
+
+.join h5 {
+    font-size: 17px;
+    padding: 13px;
+}
+
+.how  {
+    padding-left: 40px;    
+}
+
+.how li {
+    font-size: 21px;
+
+}
+
+.how h4 {
+    font-size: 22px;
+}
+
+#how1 {
+    font-weight: bold;
+}
+
+.offer h3 {
+    font-size: 24px;
+    padding-bottom: 0px;
+}
+
+.offer {
+    padding-left: 30px;
+}
+
+.offer li {
+    font-size: 20px;
+}
+
+.offer p {
+    font-size: 23px;
+}
+
+.form {
+    padding-bottom: 50px;
+}
+.form h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px; 
+    margin: auto; 
+}
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+input, select, textarea {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+button {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+.form-group input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.form-group input[type="file"]:hover {
+    border-color: #007BFF; 
+}
+
+.table h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 100px;
+    color: rgb(252, 235, 5);
+}
+
+.table h2:hover {
+    background-color: rgb(204, 197, 189);
+}
+
+.nav-menu {
+    display: none;
+    list-style-type: none;
+    height: 400px;
+    width: 500px;
+    font-size: 40px;
+    margin-right: 110px;
+    background-color: #007BFF;
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    right: 0;
+}
+
+.nav-menu li {
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-menu li a:hover {
+    background-color: #0056b3;
+}
+
+.show-menu {
+    display: block;
+}
