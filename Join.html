@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ac</title>
+</head>
+
+<link rel="stylesheet" href="Styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    
+        <h1 class="part1"><span id="span1">AC</span> <span id="span2">Kleon</span></h1>
+
+    
+
+    <div class="pic">
+
+    </div>
+    <div class="menu">
+        <i class="fa-solid fa-bars" id="menu-bars"></i>
+    </div>
+
+    <ul id="navMenu" class="nav-menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="MatchSchedule.html">Match Schedule</a></li>
+        <li><a href="Join.html">Join Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <p class="part2">
+        <article class="part3">Nurturing Talent</article> 
+        <article class="part3"> Building Champions</article>
+    </p>
+    </div>
+
+
+    <div class="join">
+    <h3>
+        Are you passionate about football? Do you want to be 
+        part of a club that not only nurtures talent but also builds 
+        character and community? AC Kleon is the place for you!
+    </h3>
+
+    <h5>We welcome aspiring footballers of all ages and skill levels to join
+    our academy and teams. Whether you dream of playing professionally or 
+    simply want to improve your skills, we have a program for you.
+    </h5>
+
+    <div class="how">
+        <h4>
+            How to Join:
+        </h4>
+
+        <ol>
+            <li><span id="how1">Sign Up Online: </span>Fill out the registration form here to get started.</li>
+            <li><span id="how1">Trial Sessions: </span>New players are invited to attend our trial sessions.
+                We assess talent and potential in a fun and supportive environment.</li>
+            <li><span id="how1">Meet the Team: </span> Once selected, you’ll be introduced 
+                to your coaches, teammates, and the AC Kleon family.</li>
+            <li><span id="how1">Start Training: </span>Our training sessions are designed to help you
+                grow as a player and as a person. You’ll have access to experienced coaches, 
+                state-of-the-art facilities, and a supportive team.</li>
+        </ol>
+    </div>
+
+    <div class="offer">
+        <h3>What We Offer:</h3>
+        <ul>
+            <li>Professional coaching and mentorship</li>
+            <li>Regular matches and competitive leagues.</li>
+            <li>Training in fitness, skills, and strategy.</li>
+            <li>Opportunities to represent AC Kleon in local and regional tournaments.</li>
+        </ul>
+        <p>Join the AC Kleon community today and take the first step in your football journey!</p>
+    </div>
+
+    <div class="form">
+        <h2>Online Registration Form</h2>
+<form id="registrationForm" action="/submit-registration" method="POST">
+    <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+    </div>
+
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required min="5" max="100">
+    </div>
+
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+    </div>
+
+    <div class="form-group">
+        <label for="experience">Football Experience:</label>
+        <textarea id="experience" name="experience" rows="4" placeholder="Please describe your football experience..."></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="parentName">Parent/Guardian Name:</label>
+        <input type="text" id="parentName" name="parentName" required>
+    </div>
+
+    <div class="form-group">
+        <label for="parentPhone">Parent/Guardian Phone Number:</label>
+        <input type="tel" id="parentPhone" name="parentPhone" required>
+    </div>
+
+    <div class="form-group">
+        <label for="birthCertificate">Upload Birth Certificate:</label>
+        <input type="file" id="birthCertificate" name="birthCertificate" accept=".pdf, .jpg, .jpeg, .png" required>
+        <small>Accepted formats: PDF, JPG, JPEG, PNG (max 5MB)</small>
+    </div>
+
+    <div class="form-group">
+        <label for="consentLetter">Upload Signed Letter of Consent:</label>
+        <input type="file" id="consentLetter" name="consentLetter" accept=".pdf, .jpg, .jpeg, .png" required>
+        <small>Accepted formats: PDF, JPG, JPEG, PNG (max 5MB)</small>
+    </div>
+
+    <div class="form-group">
+        <label for="videoUpload">Upload a Short Video of you playing:</label>
+        <input type="file" id="videoUpload" name="videoUpload" accept="video/*" required>
+        <small>Video format: MP4, AVI, or MOV (max 10MB)</small>
+    </div>
+
+    <button type="submit">Register</button>
+</form>
+
+
+    </div>
+
+
+    </div>
+
+
+    
+    
+    <div>
+        <p id="follow">
+            Follow Us On:
+        </p>
+        <div  class="icons">
+        <i class="fab fa-facebook-f" id="facebook"></i>
+        <i class="fa-brands fa-twitter" id="twitter"></i>
+        <i class="fab fa-instagram" id="instagram"></i>
+        </div>
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+
+</body>
+</html>
